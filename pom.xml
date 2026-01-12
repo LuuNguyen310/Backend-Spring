@@ -10,7 +10,7 @@
     </parent>
     <groupId>com.luun.booking</groupId>
     <artifactId>Kitchen-control-backend</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>0.0.2-SNAPSHOT</version>
     <packaging>war</packaging>
     <name>Kitchen-control-backend</name>
     <description>Kitchen-control-backend</description>
