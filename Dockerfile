@@ -7,7 +7,7 @@ RUN mvn clean package -DskipTests
 
 FROM eclipse-temurin:17-jre-alpine
 WORKDIR /app
-COPY --from=build /app/target/myapp.jar ./myapp.jar
+COPY --from=build /app/target/myapp.jar ./Kitchen-control-backend.jar
 
 EXPOSE 8080
-ENTRYPOINT ["java", "-jar", "myapp.jar"]
+ENTRYPOINT ["java", "-jar", "Kitchen-control-backend.jar"]
